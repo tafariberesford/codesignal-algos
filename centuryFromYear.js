@@ -3,7 +3,7 @@
 
 function centuryFromYear(year) {
   // divide the year by 100 to get the year
-  // math.ceil to round up to the nearest 1 whole.
+  // math.ceil to round up to the next largest number/integer
   return Math.ceil(year / 100)
 }
 
